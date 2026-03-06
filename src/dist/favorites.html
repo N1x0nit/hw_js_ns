@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your Energy — fitness exercises platform. Find workouts, track favorites and improve your health." />
+    <meta name="theme-color" content="#1c1b1b" />
+    <title>Favorites — Your Energy</title>
+    <link rel="icon" type="image/svg+xml" href="/your-energy/assets/favicon-mHPZodUk.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/your-energy/assets/favorites-CpPjsZ6p.js"></script>
+    <link rel="modulepreload" crossorigin href="/your-energy/assets/pagination-DHyQxHXB.js">
+    <link rel="stylesheet" crossorigin href="/your-energy/assets/pagination-DhNvM9TL.css">
+  </head>
+  <body>
+    
+    <header class="header" id="header">
+      <div class="container header__container">
+        <a href="./index.html" class="logo" aria-label="Your Energy home">
+          <span class="logo__text">YOUR ENERGY</span>
+        </a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="./favorites.html" class="nav__link nav__link--active">Favorites</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="socials">
+          <li>
+            <a href="https://www.facebook.com/goITclub/" class="socials__link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg class="socials__icon" width="20" height="20" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-facebook"></use></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/goitclub/" class="socials__link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg class="socials__icon" width="20" height="20" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-instagram"></use></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/c/GoIT" class="socials__link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <svg class="socials__icon" width="20" height="20" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-youtube"></use></svg>
+            </a>
+          </li>
+        </ul>
+
+        <button class="burger-btn" id="burger-btn" type="button" aria-label="Open menu" aria-expanded="false">
+          <svg width="24" height="24" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-menu"></use></svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <button class="mobile-menu__close" id="mobile-close-btn" type="button" aria-label="Close menu">
+          <svg width="24" height="24" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-close"></use></svg>
+        </button>
+        <nav class="mobile-menu__nav">
+          <ul class="mobile-menu__list">
+            <li><a href="./index.html" class="mobile-menu__link">Home</a></li>
+            <li><a href="./favorites.html" class="mobile-menu__link mobile-menu__link--active">Favorites</a></li>
+          </ul>
+        </nav>
+        <ul class="mobile-menu__socials">
+          <li>
+            <a href="https://www.facebook.com/goITclub/" class="socials__link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg class="socials__icon" width="20" height="20" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-facebook"></use></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/goitclub/" class="socials__link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg class="socials__icon" width="20" height="20" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-instagram"></use></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/c/GoIT" class="socials__link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <svg class="socials__icon" width="20" height="20" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-youtube"></use></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="favorites-section">
+        <div class="container favorites-section__container">
+          <h1 class="favorites-section__title">Favorites</h1>
+
+          <div class="favorites-section__body">
+
+            
+            <aside class="fav-sidebar">
+              
+              <div class="quote-card" id="quote-card">
+                <div class="quote-card__header">
+                  <div class="quote-card__icon-wrap">
+                    <svg width="20" height="20" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-runner"></use></svg>
+                  </div>
+                  <span class="quote-card__label">Quote of the day</span>
+                  <svg class="quote-card__marks" width="24" height="18" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-quotes"></use></svg>
+                </div>
+                <p class="quote-card__text" id="quote-text">Loading...</p>
+                <p class="quote-card__author" id="quote-author"></p>
+              </div>
+
+              
+              <div class="fav-info-row">
+                <div class="norm-card fav-norm">
+                  <div class="norm-card__top">
+                    <svg class="norm-card__icon" width="32" height="32" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-dumbbell"></use></svg>
+                    <div>
+                      <p class="norm-card__value">110 min</p>
+                      <p class="norm-card__label">Daily norm of sports</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="sidebar-photo fav-photo">
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset="/your-energy/assets/sidebar-photo-DiVUG1Lw.webp 1x, /your-energy/assets/sidebar-photo@2x-CpEBTGrG.webp 2x"
+                    />
+                    <img
+                      src="/your-energy/assets/sidebar-photo-CaKQ929N.jpg"
+                      srcset="/your-energy/assets/sidebar-photo-CaKQ929N.jpg 1x, /your-energy/assets/sidebar-photo@2x-DiWz8GpT.jpg 2x"
+                      onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1518611012118-696072aa579a?w=888&h=484&fit=crop&auto=format'"
+                      alt="People working out"
+                      class="sidebar-photo__img"
+                      width="444" height="242"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </aside>
+
+            
+            <div class="favorites-content" id="favorites-content">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    
+    <div class="modal-overlay hidden" id="modal-exercise" role="dialog" aria-modal="true" aria-labelledby="modal-exercise-title">
+      <div class="modal modal--exercise">
+        <button class="modal__close" type="button" aria-label="Close modal">
+          <svg width="16" height="16" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-close"></use></svg>
+        </button>
+        <div class="modal-exercise__body" id="modal-exercise-body"></div>
+      </div>
+    </div>
+
+    
+    <div class="modal-overlay hidden" id="modal-rating" role="dialog" aria-modal="true" aria-labelledby="modal-rating-title">
+      <div class="modal modal--rating">
+        <button class="modal__close" type="button" aria-label="Close modal">
+          <svg width="16" height="16" aria-hidden="true"><use href="/your-energy/assets/icons-CN5o3180.svg#icon-close"></use></svg>
+        </button>
+        <div class="modal-rating__body">
+          <p class="modal-rating__label">Rating</p>
+          <div class="rating-stars" id="rating-stars" role="group" aria-label="Rating">
+            <span class="rating-stars__value" id="rating-value">0.0</span>
+          </div>
+          <form class="rating-form" id="rating-form" novalidate>
+            <input class="rating-form__input" id="rating-email" type="email" placeholder="Email" aria-label="Email" required />
+            <textarea class="rating-form__textarea" id="rating-comment" placeholder="Your comment" aria-label="Comment"></textarea>
+            <button class="rating-form__submit" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
