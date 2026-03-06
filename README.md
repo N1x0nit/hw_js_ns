@@ -4,7 +4,7 @@ A fitness web application SPA built with Vanilla JavaScript and Vite.
 
 ## 🚀 Live Demo
 
-[View Live](https://your-username.github.io/your-energy/)
+[View Live](https://n1x0nit.github.io/hw_js_ns/index.html)
 
 ## 📌 About
 
