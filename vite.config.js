@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-  base: '/your-energy/',
+  base: '/hw_js_ns/',
   build: {
     outDir: resolve(__dirname, 'dist'),
     rollupOptions: {
